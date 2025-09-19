@@ -1,13 +1,6 @@
 $fn = 50;
 include <../components/multiboard.scad>;
 
-
-
-
-;
-    
-
-
 module base(base_w, base_l, base_h, wall_t) {
     difference() {
         cube(size=[base_w, base_l, base_h]);
